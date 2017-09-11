@@ -1,0 +1,3 @@
+rootProject.name = 'CustomMap'
+include ':app',':react-native-android-map'
+project(':react-native-android-map').projectDir = new File(settingsDir, '../node_modules/react-native-android-map/android')
